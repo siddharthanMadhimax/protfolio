@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is style sheet for css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- this link is for the icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css">
+
+    <title>my_protfolio</title>
+</head>
+<body>
+    
+
+
+    <!-- header -->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">sid<span>dhu</span></a>
+
+            <div class="nav_menu " id="nav_menu">
+                <ul class="nav_list">
+                    <li><a href="#home" class="nav_link active_link">Home</a></li>
+                    <li><a href="#about" class="nav_link">about</a></li>
+                    <li><a href="#service" class="nav_link">service</a></li>
+                    <li><a href="#project" class="nav_link">project</a></li>
+                    <li><a href="#contact" class="nav_link">contact</a></li>
+                </ul>
+                <div class="nav_close" id="nav_close">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+
+            <!-- <div class="nav_socials">
+                
+                <a href="www.facebook.com" target="_blank" class="nav_social_link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="www.twitter.com" target="_blank" class="nav_social_link">
+                    <i class="uil uil-twitter"></i>
+
+                </a> <a href="www.linkedin.com" target="_blank" class="nav_social_link">
+                    <i class="uil uil-linkedin"></i>
+
+                </a> <a href="www.instagram.com" target="_blank" class="nav_social_link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                
+            </div> -->
+            <div class="nav_btns">
+                <a href="#contact" class="nav_link_btn btn">Let's talk</a>
+                <div class="nav_toggle" id="nav_toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+     <main class="main">
+        <!-- home section -->
+        <section class="home" id="home">
+
+            <div class="home_container container grid">
+                
+                <div class="home_content">
+                    <span class="home_subtitle">
+                        Welcome to my protfolio
+                    </span>
+                    <h1 class="home_title">Hi,I'm Siddharthan, <span>Js Developer</span> from Chennai.</h1>
+                </div>
+                <img src="assests/images/my_image5.jpeg" alt="" class="home_image">
+            </div>
+        </section>
+
+
+        <!-- about section -->
+        <section class="section about" id="about">
+            <div class="about_container container grid">
+                <img src="assests/images/My_image8.jpeg" alt="" class="about_image">
+        
+                <!-- about content like about me para -->
+                <div class="about_content">
+                    <h2 class="section_title">About ME</h2>
+                    <p class="about_description">Hi, I'm Siddharthan, a B.E. Computer Science Engineer who completed my degree in 2024 at Dhanalakshmi College of Engineering, Tambaram, affiliated with Anna University. My passion lies in front-end development, where I enjoy transforming creative designs into functional, user-friendly interfaces.</p>
+                    <!-- tabs buttons like skill education certification -->
+                    <div class="tabs__btns">
+                        <span class="tabs_btn tab__active" data-target="#skills">Main skills</span>
+                        <span class="tabs_btn" data-target="#education">Education</span>
+                        <span class="tabs_btn" data-target="#certification">Certification</span>
+                        <span class="tabs_btn" data-target="#workshop">Work Shops</span>
+                    </div>
+        
+                   <!-- tab content which gonna say about my skills -->
+                     <div class="tabs_content">
+        
+                        <div class="tabs_items tab__active" data-content id="skills">
+                            <div class="tabs_data grid">
+                                <p class="tabs_description"><span>user experience & user interface design</span> -UI/UX 
+                                <span>Expertise in crafting user-friendly interfaces with a focus on aesthetics and usability.</span></p>
+        
+                                <p class="tabs_description"><span>Web and User interface design:</span> development
+                                <span>Websites,web experiences, ...</span></p>
+        
+                                <p class="tabs_description"><span>Python Development:</span> -Mid-level 
+                                <span>Proficient in object-oriented programming with Python.</span></p>
+        
+                            </div>
+                        </div>
+        
+        
+                        <div class="tabs_items" data-content id="education">
+                            <div class="tabs_data grid">
+                                <p class="tabs_description"><span>10th standard:</span>st martin's matriculation school 
+                                <span>2017-2018-(84%)</span></p>
+        
+                                <p class="tabs_description"><span>12th standard:</span>Dhava amudham matric hr.sec school
+                                <span>2019-2020-(77%)</span></p>
+        
+                                <p class="tabs_description"><span>B.E cse:</span>Dhanalakshmi college of Engineer
+                                <span>2020-2024-(7.8 CGPA)</span></p>
+        
+                            </div>
+                        </div>
+        
+        
+                        <div class="tabs_items"  data-content id="certification">
+                            <div class="tabs_data grid">
+                                <p class="tabs_description"><span>HTML : </span> Simple learn 
+                                <span>Proficient in structuring and organizing web content with semantic HTML to ensure accessibility and SEO optimization.</span></p>
+        
+                                <p class="tabs_description"><span>CSS : </span>Simple learn
+                                <span> Experienced in styling and designing responsive web layouts with modern CSS techniques and frameworks.</span></p>
+        
+                                <p class="tabs_description"><span>UI/UX : </span> google coursera
+                                <span></span></p>
+                                <p class="tabs_description"><span>Bussiness inteligence : </span> google coursera
+                                 <span></span> </p>
+                            </div>
+                        </div>
+        
+        
+                        <div class="tabs_items"  data-content id="workshop">
+                            <div class="tabs_data grid">
+                                <p class="tabs_description"><span>3D printing:</span> Dhanalakshmi college of Engineer
+                                <span>Attended workshop on 3D printing conducted in Dhanalakshmi college of Engineer
+                                </span></p>
+        
+                                <p class="tabs_description"><span>Oracle:</span>Dhanalakshmi college of Engineer
+                                    <span>Attended workshop on Oracle conducted in Dhanalakshmi college of Engineer
+                                    </span></p>
+        
+                                <p class="tabs_description"><span>Drones:</span>Garuda Aerospace
+                                <span>Attended workshop on Drones maintaing conducted by Garuda Aerospace</span></p>
+        
+                            </div>
+                        </div>
+                     </div>
+                </div>
+        
+            </div>
+          </section>
+        
+        
+        
+        <!-- service section -->
+        <section class="services section" id="service">
+            <h2 class="section_title">My Awesome Services</h2>
+            <p class="section_description">Offering tailored solutions that elevate your digital experience, ensuring every detail meets your unique needs</p>
+    
+    
+            <div class="services_container container grid">
+                <div class="services_items">
+                    <i class="service_icon uil uil-layer-group"></i>
+    
+                    <h3 class="service_title">Website Development</h3>
+                    <p class="service_description">I create engaging and responsive websites tailored to your needs, ensuring a seamless online experience that captures attention and drives results.</p>
+                </div>
+    
+    
+                <div class="services_items">
+                    <i class="service_icon uil uil-compress"></i>
+    
+                    <h3 class="service_title">Business Intelligence Service</h3>
+                    <p class="service_description">I offer data-driven insights to help you make informed decisions, transforming your business data into actionable strategies for growth..</p>
+                </div>
+    
+    
+                <div class="services_items">
+                    <i class="service_icon uil uil-user-arrows"></i>
+    
+    
+                    <h3 class="service_title">Marketing Report Service</h3>
+                    <p class="service_description">I provide detailed marketing reports that analyze trends, customer behavior, and campaign effectiveness, offering actionable insights to help you make informed decisions.</p>
+                </div>
+    
+    
+                
+            </div>
+        </section>
+
+
+        <!-- project_section -->
+        <section class="project section" id="project">
+            <h2 class="section_title">My Projects</h2>
+            <p class="section_description"> Showcasing diverse solutions crafted to tackle real-world problems with creativity and technical expertise.</p>
+            <div class="project_container container grid">
+                <div class="project_item">
+                    <img src="assests/images/Medicare_image.jpg" alt="" class="project_image">
+    
+                    <div class="project_data">
+                        <p class="project_subtitle">Development</p>
+                        <h3 class="project_title">Web Design</h3>
+                        <p class="project_description">Created a streamlined medical appointment booking site using HTML, CSS, and JavaScript</p>
+                    </div>
+                </div>
+    
+    
+                <div class="project_item">
+                    <img src="assests/images/block_image2.jpeg" alt="" class="project_image">
+                
+                    <div class="project_data">
+                        <p class="project_subtitle">Blockchain</p>
+                        <h3 class="project_title">Error Recovery System</h3>
+                        <p class="project_description">Implemented a robust error recovery process using blockchain technology for enhanced data integrity.</p>
+                    </div>
+                </div>
+    
+    
+                <div class="project_item">
+                    <img src="assests/images/agriculture_image.jpg" alt="" class="project_image">
+                
+                    <div class="project_data">
+                        <p class="project_subtitle">UI/UX Design</p>
+                        <h3 class="project_title">Agriculture Platform</h3>
+                        <p class="project_description">Designed a user-friendly interface for a platform where farmers can upload farming videos and buy/sell products.</p>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+        </section>
+
+
+        <!-- contact section -->
+        <section class="contact section" id="contact">
+            <div class="contact_container container grid">
+                <div class="contact_content">
+                    <h2 class="section_title">Hire Me</h2>
+                    <p class="contact_description">
+                        Connect me with via phone: <a href="tel:+916380448496"> 6380448496</a> or Email : <a href="mailto:siddharthan.madhiyalagan@gmail.com">siddharthan.madhiyalagan@gmail.coms</a>
+                    </p>
+                    <form class="contact_form" id="contact_form">
+                        <div class="class_form_input">
+                            <input type="text" name="name" placeholder="Your Name" class="contact_input" id="contact_name">
+                        </div>
+                        <div class="class_form_input">
+                            <input type="email" name="email" placeholder="Your e-mail" class="contact_input" id="contact_email">
+                        </div>
+                        <div class="class_form_input">
+                            <input type="text" name="subject" placeholder="write a subject" class="contact_input" id="contact_subject">
+                        </div>
+    
+                        <div class="class_form_input">
+                            <textarea name="message" id="contact_message" class="contact_input textarea" placeholder="Your message"></textarea>
+                        </div>
+                        <input type="submit" value="submit" class="btn">
+                        <p class="error_message" id="error_message"></p>
+                    </form>
+                </div>
+
+                <div class="contact_image">
+                    <img src="assests/images/my_image4.jpeg"  alt="">
+                </div>
+                
+            </div>
+        </section>
+     </main>
+
+
+    
+
+
+    <footer class="footer">
+        <div class="footer_container container grid">
+            <a href="index.html" class="footer_logo">sid<span>dhu</span></a>
+            <div class="footer_socials">
+                
+                <a href="www.facebook.com" target="_blank" class="footer_social_link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="www.twitter.com" target="_blank" class="footer_social_link">
+                    <i class="uil uil-twitter"></i>
+
+                </a> <a href="www.linkedin.com" target="_blank" class="footer_social_link">
+                    <i class="uil uil-linkedin"></i>
+
+                </a> <a href="www.instagram.com" target="_blank" class="footer_social_link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+
+            </div>
+
+            <p class="footer_copyrights">&copy;2024 all rights are reserved</p>
+        </div>
+    </footer>
+    <script src="assests/js/main.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
